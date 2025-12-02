@@ -1,0 +1,6 @@
+.task-wrapper{
+  padding:1rem var(--side-padding);
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}

@@ -1,1 +1,11 @@
-<p>task-card works!</p>
+<div class="task-wrapper">
+  <div class="task-left">
+    <input class="checkbox" type="checkbox" [value]="this.task().completed" />
+    <h3 class="task-title">{{ task().title }}</h3>
+  </div>
+  <div class="task-right">
+    <h4 class="task-category">{{ task().category.name }}</h4>
+    <p class="task-description">{{ task().description }}</p>
+    <p class="task-created">{{ task().createdAt }}</p>
+  </div>
+</div>

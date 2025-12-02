@@ -1,0 +1,27 @@
+.task-wrapper{
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  padding:2rem 1.5rem;
+  background-color: var(--color-primary);
+  color: white;
+  width:fit-content;
+  padding-right: 10rem;
+  border-radius: 1rem;
+  min-width: 350px;
+}
+.task-left{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  column-gap: 0.5rem;
+}
+.task-right{
+  display: flex;
+  row-gap: 0.75rem;
+  flex-direction: column;
+}
+.checkbox{
+  background-color: var(--color-primary);
+  border-radius: 999px;
+}
