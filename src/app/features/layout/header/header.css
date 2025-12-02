@@ -1,0 +1,59 @@
+.header-wrapper{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding:1rem var(--side-padding)
+}
+.header-right, .header-left{
+  width: 200px;
+}
+.header-left p{
+  font-weight: bold;
+  font-size: 1.5rem;
+  color:var(--color-primary)
+}
+.header-input{
+  width: 350px;
+  padding: 0.75rem 1.25rem;
+  background-color:var(--color-primary-light);
+  border-radius: 999px;
+  color: var(--color-primary);
+  font-weight: bold;
+  outline: none;
+  border:none;
+  font-family: 'Courier New', Courier, monospace;
+}
+.header-input::placeholder{
+  font-weight: 600;
+  color: var(--color-primary);
+}
+.header-right{
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 10px;
+}
+.header-left{
+  display: flex;
+  justify-content: flex-start;
+}
+.header-right button{
+  min-width: 130px;
+  padding:0px 20px;
+  height: 35px;
+  border-radius: 999px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.header-task-button{
+  background-color: var(--color-primary);
+  border:none;
+  color: white;
+  font-weight: 500;
+}
+.header-category-button{
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+  font-weight: 700;
+  border:none;
+}
