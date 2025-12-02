@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+  --color-primary: #6368D9;
+  --color-primary-light:#D1D0F9;
+  --color-background:#e1e1f5;
+  --side-padding: 10rem;
+}
+
+html{
+  font-family:'Courier New', Courier, monospace;
+}
+body{
+  background-color: var(--color-background);
+}
+p, h1, h2, h3, h4, h5{
+  margin:0
+}
